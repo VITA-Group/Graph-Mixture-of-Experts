@@ -1,10 +1,10 @@
 # Graph Mixture of Experts: Learning on Large-Scale Graphs with Explicit Diversity Modeling
 
-Official code for "Graph Mixture of Experts: Learning on Large-Scale Graphs with Explicit Diversity Modeling" by Haotao Wang, Ziyu Jiang, Yan Han, Zhangyang Wang
+Official code for "Graph Mixture of Experts: Learning on Large-Scale Graphs with Explicit Diversity Modeling" in NeurIPS 2023. 
 
 ## Introduction
 
-In this work, we propose the Graph Mixture of Experts (GMoE) model structure to enhance the ability of GNNs to accommodate the diversity of training graph structures, without incurring computational overheads.
+In this work, we propose the Graph Mixture of Experts (GMoE) model structure to enhance the ability of GNNs to accommodate the diversity of training graph structures, without incurring computational overheads at inference.
 
 ## How to run the code
 
@@ -30,9 +30,10 @@ Our code is built upon the [official OGB code](https://github.com/snap-stanford/
 ## Citation
 
 ```
-@misc{wang2023gmoe,
-author = {Wang, Haotao and Jiang, Ziyu and Han, Yan and Wang, Zhangyang},
+@inproceedings{wang2023gmoe,
+author = {Wang, Haotao and Jiang, Ziyu and You, Yuning and Han, Yan and Liu, Gaowen and Srinivasa, Jayanth and Kompella, Ramana Rao  and Wang, Zhangyang},
 title = {Graph Mixture of Experts: Learning on Large-Scale Graphs with Explicit Diversity Modeling},
+booktitle = {NeurIPS}, 
 year = {2023}
 }
 ```
